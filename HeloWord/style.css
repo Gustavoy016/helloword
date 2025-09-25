@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+& .header {
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    
+
+    & .nav {
+        display: flex;
+        gap: 50px;
+        width: 449px;
+        font-size: 14px;
+        
+    }
+
+
+}
