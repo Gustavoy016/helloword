@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  height: 100vh;
+  background: linear-gradient(to right, #fff, #8ae3f1);
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 80px;
+  width: 100%;
+}
+
+.header .nav {
+  display: flex;
+  gap: 50px;
+  font-size: 14px;
+}
+
+.header .nav a {
+  color: #000;
+  transition: 0.3s;
+}
+
+.header .nav a:hover {
+  color: #008cff;
+}
+
+/* Main */
+main {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 80px;
+}
+
+.esquerdo {
+  max-width: 600px;
+}
+
+.esquerdo .destaque {
+  color: red;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.esquerdo h1 {
+  margin: 20px 0;
+  font-size: 32px;
+  font-weight: 800;
+}
+
+.esquerdo p {
+  margin-bottom: 30px;
+  font-size: 16px;
+  color: #444;
+}
+
+.bnts {
+  display: flex;
+  gap: 20px;
+}
+
+.btn {
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-weight: 600;
+}
+
+.btn.verde {
+  background: #28a745;
+  color: #fff;
+}
+
+.btn.azul {
+  background: #007bff;
+  color: #fff;
+}
+
+.direito img {
+  max-width: 350px;
+  border-radius: 10px;
+}
